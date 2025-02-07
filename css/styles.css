@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background: #ffa361; */
 }
 
 body, html {
@@ -262,3 +263,37 @@ a {
         margin-bottom: 30px;
     }
 }
+
+/* PAGINA DE VENDAS - PAGAMENTO DESAFIO NUTRIR FIT VERÃO */
+
+.bg-pay {
+    background-color: #ffa361;
+}
+
+.logo-desafio {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.link-container.pay-pag {
+    padding: 0px;
+    padding-top: 74px;
+}
+
+.img-nutri {
+    margin-bottom: -40px;
+}
+
+.text-linksU-pay {
+    margin-top: -50px !important;
+    padding-top: 0px;
+    color: #f4f4f4;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 0px;
+}
+
+/* .row.justify-content-center.img-nutri {
+    flex-wrap: nowrap;
+} */
