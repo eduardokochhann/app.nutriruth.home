@@ -72,7 +72,8 @@ body, html {
 }
 
 .text-linksU {
-    margin-top: -50px !important;
+    text-align: right;
+    margin-top: -72px !important;
     color: #f4f4f4;
 }
 
@@ -264,7 +265,7 @@ a {
     }
 }
 
-/* PAGINA DE VENDAS - PAGAMENTO DESAFIO NUTRIR FIT VERÃO */
+/* PAGINA DE VENDAS - PAGAMENTO DESAFIO NUTRIR FIT CARNAVAL */
 
 .bg-pay {
     background-color: #ffa361;
