@@ -268,13 +268,18 @@ a {
 /* PAGINA DE VENDAS - PAGAMENTO DESAFIO NUTRIR FIT CARNAVAL */
 
 .bg-pay {
-    background-color: #ffa361;
+    background-color: #000000;
 }
 
 .logo-desafio {
     width: 100%;
     height: auto;
     margin-top: 20px;
+    padding-left: 6px;
+}
+
+.ld-pay {
+    color: #f2ae11;
 }
 
 .link-container.pay-pag {
