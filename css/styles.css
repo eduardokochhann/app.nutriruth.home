@@ -7,9 +7,9 @@
 }
 
 body, html {
-    height: 100%;
+    height: auto;
     margin: 0;
-    font-family: Arial, sans-serif;
+ 
     background-image: url('images/path-to-background-image2.png'); 
     background-position: right top;
     background-size: auto 100%;
@@ -63,7 +63,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #333;
+    /* background-color: #333; */
     border-radius: 20px;
     padding: 20px;
     padding-top: 90px;
@@ -271,6 +271,13 @@ a {
     background-color: #000000;
 }
 
+.header-lp_pay {
+    background-color: #72D93A;
+    height: 12px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
 .logo-desafio {
     width: 100%;
     height: auto;
@@ -278,26 +285,177 @@ a {
     padding-left: 6px;
 }
 
+.tlt-lp01 {
+    margin-top: 105px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FAD54D;
+}
+
+.cta-lp01 {
+padding-bottom: 0px;
+}
+
 .ld-pay {
     color: #f2ae11;
 }
 
-.link-container.pay-pag {
+.link-container.btn-pay-pag1 {
     padding: 0px;
-    padding-top: 74px;
+    padding-top: 0px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.text-linksU-pay {
+    margin-top: -50px !important;
+    padding: 10px 35px; /* Ajuste o padding para melhor espaçamento */
+    color: transparent; /* Torna o texto transparente */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Deixa o texto em negrito */
+    border: 1px solid #FAD54D; /* Borda fina na cor desejada */
+    display: inline-block; /* Permite aplicar padding e borda ao link */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    -webkit-text-stroke: 0.5px #FAD54D; /* Cria o efeito de texto vazado */
+    text-stroke: 1px #FAD54D; /* Fallback para navegadores que não suportam -webkit */
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 16px; /* Bordas arredondadas (ajuste o valor conforme necessário) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    line-height: 1.5; /* Ajusta a altura da linha para centralizar verticalmente */
+    min-width: 150px; /* Define uma largura mínima para o botão (opcional) */
+}
+
+.text-linksU-pay:hover {
+    background-color: #FAD54D; /* Fundo amarelo ao passar o mouse */
+    color: #000; /* Texto preto ao passar o mouse */
+    -webkit-text-stroke: 1px transparent; /* Remove o contorno ao passar o mouse */
+    text-stroke: 1px transparent; /* Fallback */
+}
+
+
+/* # Benefícios do Desafio */
+
+.lp-pay-beneficios {
+    text-align: left;
+    margin-top: 45px;
+}
+
+.tlt-lp02 {
+    color: #FAD54D;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.p-beneficios {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.lista-detalhes {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.tlt-lp03 {
+    color: #FFA500;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lp-pay-detalhes {
+    text-align: left;
+    margin-top: 45px;
+}
+
+.lista-detalhes li p {
+    font-size: 14px;
+    padding-left: 0px;
+    padding-top: 0px;
+    color: #FAD54D;
+}
+
+.lista-detalhes li {
+    display: flex;
+    align-items: left; /* Alinha o ícone e o texto verticalmente */
+    margin-bottom: 0px; /* Espaçamento entre os itens */
+}
+
+.icone-check {
+    display: inline-block;
+    width: 20px; /* Largura do ícone */
+    height: 20px; /* Altura do ícone */
+    background-image: url('/images/icon_check.png'); /* Caminho do ícone */
+    background-size: cover; /* Ajusta o ícone ao tamanho do contêiner */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.lp-pay-nutri {
+    text-align: left;
+    margin-top: 45px;
+}
+
+.tlt-lp04 {
+    color:#FAD54D;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.p-nutri {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: 50px;
+    color: #FAD54D;
 }
 
 .img-nutri {
     margin-bottom: -40px;
 }
 
-.text-linksU-pay {
-    margin-top: -50px !important;
-    padding-top: 0px;
-    color: #f4f4f4;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 0px;
+.link-container-2.btn-pay-pag2 {
+    padding: 0px;
+    padding-top: 20px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.text-pay-2 {
+    color: #72D93A;
+    font-size: 14px;
+}
+
+.text-linksU-pay-2 {
+    margin-top: 0px !important;
+    padding: 10px 35px; /* Ajuste o padding para melhor espaçamento */
+    color: transparent; /* Torna o texto transparente */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Deixa o texto em negrito */
+    border: 1px solid #72D93A; /* Borda fina na cor desejada */
+    display: inline-block; /* Permite aplicar padding e borda ao link */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    -webkit-text-stroke: 0.5px #72D93A; /* Cria o efeito de texto vazado */
+    text-stroke: 1px #72D93A; /* Fallback para navegadores que não suportam -webkit */
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 16px; /* Bordas arredondadas (ajuste o valor conforme necessário) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    line-height: 1.5; /* Ajusta a altura da linha para centralizar verticalmente */
+    min-width: 150px; /* Define uma largura mínima para o botão (opcional) */
+}
+
+.text-linksU-pay-2:hover {
+    background-color: #72D93A; /* Fundo amarelo ao passar o mouse */
+    color: #000; /* Texto preto ao passar o mouse */
+    -webkit-text-stroke: 1px transparent; /* Remove o contorno ao passar o mouse */
+    text-stroke: 1px transparent; /* Fallback */
+}
+
+.ftr-lp-pay {
+    background-color: #F35F63 !important;
+    color: #000;
+    padding: 0px;
+    padding-bottom: 2px;
 }
 
 /* .row.justify-content-center.img-nutri {
