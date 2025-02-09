@@ -268,7 +268,7 @@ a {
 /* PAGINA DE VENDAS - PAGAMENTO DESAFIO NUTRIR FIT CARNAVAL */
 
 body {
-    /* max-width: 430px; Limita a largura da página para o iPhone 14 */
+    /* max-width: 390px;  */
     /* margin: 0 auto; Centraliza o conteúdo na tela */
     overflow-x: hidden; /* Evita rolagem horizontal */
 }
@@ -507,6 +507,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 .countdown-title {
